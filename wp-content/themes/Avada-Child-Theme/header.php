@@ -66,7 +66,7 @@ $wrapper_class .= ( is_page_template( 'blank.php' ) ) ? ' wrapper_blank' : '';
 
 					<div class="topCall topCus">
 
-						<h6><a href="tel:<?php echo of_get_option( 'phone' ); ?>">Call Us: <?php echo of_get_option( 'phone' ); ?></a></h6>
+						<h6><?php echo avada_contact_info(); ?></h6>
 
 					</div>
 
